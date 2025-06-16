@@ -1,13 +1,13 @@
-# Models for FUTO Voice Input
+# Modelle für FUTO Spracheingabe
 
-Want to finetune your language for voice input?
+Möchten Sie Ihre Sprache für die Spracheingabe optimieren?
 
-## Requirements
+## Anforderungen
 
-The model must be whisper-tiny, whisper-base or whisper-small finetuned on your language. We do not support large, large-v2 or large-v3 as it is too big to run on most phones.
+Das Modell muss whisper-tiny, whisper-base oder whisper-small auf Ihre Sprache feinabgestimmt sein. Wir unterstützen kein large, large-v2 oder large-v3, da es zu groß ist, um auf den meisten Handys zu laufen.
 
-For the model to work correctly in the apps, it should be finetuned with the [ACFT method](https://github.com/futo-org/whisper-acft). This allows the model to run with greater efficiency. If you use a model in the app not finetuned with this, it will work with long dictations (30s) but shorter dictations (under 15s) will exhibit infinite repetition or a long delay at the end. If you already finetuned a model on your language but need help with this process, please make a new issue and we can help.
+Damit das Modell in den Apps korrekt funktioniert, sollte es mit der [ACFT-Methode](https://github.com/futo-org/whisper-acft) feinabgestimmt werden. Dies ermöglicht eine effizientere Ausführung des Modells. Wenn Sie ein Modell in der App verwenden, das nicht mit dieser Methode feinabgestimmt ist, funktioniert es mit langen Diktaten (30s), jedoch werden kürzere Diktate (unter 15s) endlose Wiederholungen oder eine lange Verzögerung am Ende zeigen. Wenn Sie bereits ein Modell auf Ihre Sprache abgestimmt haben, aber Hilfe bei diesem Prozess benötigen, erstellen Sie bitte ein neues Issue und wir können Ihnen helfen.
 
-## Method
+## Methode
 
-This document is still a WIP, more details will follow eventually. If you're interested in this or have done this before feel free to make an issue
+Dieses Dokument ist noch in Arbeit, weitere Details werden folgen. Wenn Sie daran interessiert sind oder dies bereits getan haben, können Sie gerne ein Issue erstellen.
